@@ -20,8 +20,16 @@ ul {
 }
 
 li {
-  color: #ccc;
   line-height: 1.8rem;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 span {
@@ -31,8 +39,12 @@ span {
 
 .top {
   background: #37475a;
-  height: 2rem;
-  padding-top: 1.8rem;
+  height: 1.25rem;
+  padding: 1rem 0;
+}
+
+.top:hover {
+  background: #41556d;
 }
 
 .top-link {
@@ -41,6 +53,7 @@ span {
   color: white;
   width: 5%;
   margin: 0 auto;
+  margin-top: 0.25rem;
 }
 
 footer {
@@ -51,9 +64,19 @@ footer {
 .primary-footer-nav {
   display: flex;
   flex-direction: row;
-  height: 35rem;
-  width: 89%;
+  height: 25rem;
+  width: 90%;
+  padding: 1.5rem 0 0 5rem;
   margin: 1rem auto;
+}
+
+img {
+  width: 8em;
+  height: 3em;
+}
+
+.language-location-card {
+  background: red;
 }
 
 .secondary-footer-nav {
