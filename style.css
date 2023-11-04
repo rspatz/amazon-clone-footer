@@ -13,6 +13,10 @@
   margin-right: 5rem;
 }
 
+.footer-row li {
+  line-height: 1.9rem;
+}
+
 ul {
   list-style-type: none;
   font-family: sans-serif;
@@ -20,7 +24,7 @@ ul {
 }
 
 li {
-  line-height: 1.8rem;
+  line-height: 0.85rem;
 }
 
 a {
@@ -91,7 +95,7 @@ img {
 }
 
 .secondary-footer-nav li {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 /* Columns */
