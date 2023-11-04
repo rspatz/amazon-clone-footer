@@ -113,6 +113,6 @@ img {
   display: flex;
   flex-direction: column;
   width: 8%;
-  margin: 0 2rem 1rem 2rem;
+  margin: 0 4rem 1rem 2rem;
   line-height: 0.1rem;
 }
