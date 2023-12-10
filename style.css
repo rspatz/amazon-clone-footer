@@ -85,6 +85,11 @@ img {
 }
 
 /* Secondary Footer Navigation */
+.secondary-nav {
+  padding-left: 8rem;
+  background: #131a22;
+}
+
 .secondary-footer-nav {
   background: #131a22;
   padding-top: 2rem;
